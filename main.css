@@ -1,0 +1,400 @@
+@font-face{
+    font-family: "Akzidenz";
+    src: url('Assets/fonts/AkzidenzGrotesk-Bold.eot');
+    src: url('Assets/fonts/AkzidenzGrotesk-Bold.eot?#iefix') format('embedded-opentype'),
+        url('Assets/fonts/AkzidenzGrotesk-Bold.woff2') format('woff2'),
+        url('Assets/fonts/AkzidenzGrotesk-Bold.woff') format('woff'),
+        url('Assets/fonts/AkzidenzGrotesk-Bold.ttf') format('truetype');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+@font-face {
+    font-family: 'Gotham';
+    src: url('Assets/fonts/Gotham-Medium.eot');
+    src: url('Assets/fonts/Gotham-Medium.eot?#iefix') format('embedded-opentype'),
+        url('Assets/fonts/Gotham-Medium.woff2') format('woff2'),
+        url('Assets/fonts/Gotham-Medium.woff') format('woff'),
+        url('Assets/fonts/Gotham-Medium.ttf') format('truetype');
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+body{
+    font-family: 'Gotham';
+    background: #f4f7f9;
+}
+.header{
+    height: 5rem;
+    background-color: rgb(34, 34, 34);
+}
+.header img{
+    margin-left: 10%;
+}
+.banner{
+    position: relative;
+    width: 100%;
+}
+.banner img{
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 100%;
+    max-height: 80vh;
+    overflow: hidden;
+}
+.banner h3{
+    font-family: "Akzidenz";
+    background-color: rgba(0, 0, 0, 0.452);
+    padding: 0;
+    position: absolute;
+    right: 0px;
+    bottom: 10px;
+    left: 0px;
+    text-align: center;
+    line-height: 8rem;
+    color: white;
+    font-size: 5rem;
+    text-transform: uppercase;
+    text-shadow: 2px 2px 5px black;
+}
+.register h3{
+    font-size: 2.3rem;
+    font-weight: bold;
+    text-align: left;
+    margin: 2rem auto 3rem auto;
+}
+.register p{
+    font-size: 1.4rem;
+    text-align: left;
+    line-height: 1.5rem;
+}
+.register{
+    margin: 5rem auto;
+}
+.bankcode{
+    margin: 3rem auto;
+}
+.bankcode img{
+    width: 25rem;
+    margin: 2rem auto;
+}
+.reg-btn{
+    font-size: 1.5rem;
+    padding: 1.2rem 0;
+    font-weight: 700;
+    background-image: linear-gradient(180deg, rgb(0, 148, 74),rgb(20, 36, 20));
+    color: white;
+    border-radius: 5PX;
+    width: 25rem;
+    margin: 1rem auto;
+}
+.bankcode p{
+    font-size: 17px;
+}
+.icons-size{
+    width: 3rem;
+}
+#profile img{
+    width: 8rem;
+    border-radius: 100%;
+}
+.footer-bottom{
+    padding: 2rem 0;
+    background-color: rgb(34, 34, 34);
+}
+.footer-bottom ul>li{
+    list-style: none;
+    color: rgb(82, 82, 82);
+    font-size: 15px;
+    font-weight: lighter;
+    padding:0 3px;
+    margin-top: 3px;
+}
+.footer-bottom ul>li:not(:first-child){
+    border-left: 2px solid rgb(82, 82, 82);
+   
+}
+.footer{
+    background-color: #e8edf0;
+}
+.footer h6{
+    font-size: 25px;
+}
+
+.footer .footer-divider {
+    width: 3px;
+    height: 136px;
+    background: #bfc3c6;
+}
+.connect-with-me p{
+    text-align: left;
+    font-size: 18px;
+}
+.connect-with-me span{
+    margin: 10px 0;
+}
+.divider{
+  background: url('assets/images/hr-bg.jpg') top center no-repeat;
+  height: 38px;
+}
+.divider2{
+  background: url('assets/images/hr-bg2.jpg') top center no-repeat;
+  height: 36px;
+}
+.contact-details div:not(:first-child){
+    border-left: solid 3px red;
+}
+.contact-details div{
+    padding: 0 5px;
+    font-size: 17px;
+    text-transform: uppercase;
+}
+#profile img{
+    width: 8rem;
+    height: 8rem;
+    margin: 3rem 1.5rem;
+    border-radius: 100%;
+}
+.follow-bank a:not(:first-child){
+    margin-left: 10%;
+}
+.connect-with-me div>a:not(:first-child){
+    margin-left: 10%;
+}
+/* ERROR CLASS */
+.error {
+    border-color: rgb(241, 132, 132);
+}
+.error-msg{
+    color: rgb(241, 132, 132);
+    font-size: 15px;
+    font-weight: lighter;
+}
+
+/* XLarge devices (desktops, 1200px and up) */
+@media (max-width: 1200px) {
+    .banner h3{
+        line-height: 7rem;
+        font-size: 4rem;
+    }
+    .register h3{
+        font-size: 2rem;
+        margin: 4rem auto 2.6rem auto;
+    }
+    .register p{
+        font-size: 1.2rem;
+        line-height: 1.4rem;
+    }
+    .register{
+        margin: 2rem auto;
+    }
+    .bankcode{
+        margin: 2rem auto;
+    }
+    .bankcode img{
+        width: 23rem;
+        margin: 0 auto;
+    }
+    .reg-btn{
+        font-size: 1.5rem;
+        padding: 1rem 0;
+        font-weight: 700;
+        width: 23rem;
+        margin: 1rem auto;
+    }
+    .bankcode p{
+        font-size: 15px;
+    }
+    .contact-details div{
+        padding: 0 5px;
+        font-size: 12px;
+        text-transform: uppercase;
+    }
+    .footer h6{
+        font-size: 20px;
+    }
+    .footer p{
+        font-size: 15px;
+    }
+    #profile img{
+        width: 6rem;
+        height: 6rem;
+        margin: 2rem 1.5rem;
+    }
+    .icons-size{
+        width: 2.6rem;
+    }
+    .follow-bank a{
+        margin-top: 3rem;
+        margin-bottom: 1rem;
+    }
+    .footer{
+        padding-bottom: 1rem;
+    }
+   
+}
+/* Large devices (desktops, 992px and up) */
+@media (max-width: 992px) {
+    .banner h3{
+        line-height: 7rem;
+        font-size: 3.5rem;
+    }
+    .register{
+        margin: 1.5rem auto;
+    }
+    .bankcode{
+        margin: 1.5rem auto;
+    }
+    .register h3{
+        font-size: 1.3rem;
+        margin: 2.5rem auto 2.2rem auto;
+    }
+    .register p{
+        font-size: 1rem;
+        line-height: 1rem;
+    }
+    .register{
+        margin: 1rem auto;
+    }
+    .bankcode img{
+        width: 18rem;
+        margin: 0 auto;
+    }
+    .reg-btn{
+        font-size: 1rem;
+        padding: 0.8rem 0;
+        font-weight: 700;
+        width: 18rem;
+        margin: 1rem auto;
+    }
+    .bankcode p{
+        font-size: 12px;
+    }
+    .footer h6{
+        font-size: 20px;
+    }
+    .icons-size{
+        width: 2.5rem;
+    }
+    #profile img{
+        width: 5rem;
+        height: 5rem;
+        margin-top: 1rem;
+    }
+    .connect-with-me p{
+        text-align: left;
+        font-size: 12px;
+    }
+    .contact-details div{
+        font-size: 10px;
+    }
+    .footer{
+        padding-bottom: 1rem;
+    }
+}
+
+/* Medium devices (tablets, 768px and up) */
+@media (max-width: 768px) {
+    
+    .banner h3{
+        line-height: 4rem;
+        font-size: 2rem;
+    }
+    .register h3{
+        font-size: 1.2rem;
+        font-weight: bold;
+        margin: 0.5rem auto;
+    
+    }
+    .register p{
+        font-size: 0.8rem;
+        text-align: left;
+        line-height: 1rem;
+    }
+    .bankcode img{
+        width: 12rem;
+    }
+    .reg-btn{
+        width: 12rem;
+    }
+    .bankcode p{
+        font-size: 10px;
+    }
+    .icons-size{
+        width: 2rem;
+    }
+    #profile img{
+        width: 5rem;
+        height: 5rem;
+        margin-top: 2rem;
+    }
+    .connect-with-me p{
+        text-align: left;
+        font-size: 12px;
+    }
+    .contact-details div{
+        font-size: 10px;
+        border: none;
+    }
+    .footer h6{
+        font-size: 15px;
+    }
+    .contact-details div:not(:first-child){
+        border: none;
+    }
+    .footer{
+        padding-bottom: 1rem;
+    }
+    .follow-bank a{
+        margin-top: 2rem;
+        margin-bottom: 1rem;
+    }
+    .connect-with-me span>a:not(:first-child){
+        margin-left: 5%;
+    }
+    .footer-bottom ul>li{
+        font-size: 10px;
+        padding:0 3px;
+        margin-top: 3px;
+    }
+}
+
+/* Small devices (landscape phones, 576px and up)*/ 
+@media (max-width: 576px) {
+   
+    .banner h3{
+        line-height: 2.5rem;
+        font-size: 1.3rem;
+    }
+    .register h3{
+        font-size: 1rem;
+        text-align: center;
+    }
+    .register p{
+        font-size: 0.8rem;
+        text-align: center;
+    }
+    .connect-with-me p{
+        text-align: center;
+    }
+    .connect-with-me h6{
+        text-align: center;
+    }
+    .connect-with-me div,a{
+        display: flex;
+        justify-content: center;
+    }
+    .footer-bottom ul>li:not(:first-child){
+        border: none;
+    }
+    .footer-bottom ul>li{
+        font-size: 15px;
+        padding:0;
+        margin-top: 0;
+        text-align: center;
+    }
+    .footer-bottom ul{
+        margin: 0;
+        padding: 0;
+    }
+}
