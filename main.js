@@ -100,14 +100,15 @@ jQuery(function(){
         } else {
 
             alert('Added successfully');
-
             $('form').trigger('reset');
         }
-
+        
     });
     
     $('#close').on('click', function () {
-
+        
+        $('#firstName, #lastName, #email, #phoneNumber').removeClass('error');
+        $('.error-msg').html('');
         $('form').trigger('reset');
 
     });
