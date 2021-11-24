@@ -105,6 +105,12 @@ jQuery(function(){
         }
 
     });
+    
+    $('#close').on('click', function () {
+
+        $('form').trigger('reset');
+
+    });
         
 })
 
