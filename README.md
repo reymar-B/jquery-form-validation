@@ -1,2 +1,2 @@
-# naxum-skills-assessment
+# Personal projects
  form input validation in jquery
